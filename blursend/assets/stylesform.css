@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; /* Set Inter font */
+}
+
+body {
+    background-color: #1a1a1a;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000; /* Black background like Twitter */
+    border-bottom: 1px solid #333333;
+}
+
+.logo {
+    color: #1da1f2; /* Twitter blue */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1a1a1a; /* Subtle dark gray background */
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase; /* Optional: Emphasis for the title */
+}
+
+/* Form Styles */
+.post-form {
+    background-color: #1a1a1a; /* Dark gray background for the form */
+    padding: 1.5rem;
+    border-radius: 0px;
+     /* Adds subtle depth */
+    margin: 0; /* Reset outer margin */
+}
+
+.form-title {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333333;
+    border-radius: 50px; /* Rounded edges */
+    background-color: #000000; /* Black background */
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-field::placeholder {
+    color: #666666; /* Subtle placeholder */
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #1da1f2; /* Blue border focus */
+    box-shadow: 0 0 4px rgba(29, 161, 242, 0.5); /* Blue glow focus */
+}
+
+.text-area {
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333333;
+    border-radius: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    resize: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.text-area::placeholder {
+    color: #666666;
+}
+
+.text-area:focus {
+    outline: none;
+    border-color: #1da1f2;
+    box-shadow: 0 0 4px rgba(29, 161, 242, 0.5);
+}
+
+.submit-button {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 2rem auto;
+    padding: 0.75rem 2rem;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #0d8fe6; /* Slightly lighter blue on hover */
+    transform: scale(1.05); /* Subtle enlargement */
+}
+
+.submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(29, 161, 242, 0.5);
+}
+
+/* Dropdown Styles */
+select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #333333;
+    border-radius: 50px; /* Rounded edges */
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    appearance: none; /* Hides default dropdown arrow */
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: #1da1f2;
+    box-shadow: 0 0 4px rgba(29, 161, 242, 0.5);
+}
+
+option {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 12px;
+}

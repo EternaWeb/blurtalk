@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    color: #4650b9;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    margin: 1rem;
+    height: 300px;  /* Increased height */
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #1a237e;  /* Changed to match the theme color */
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.5);  /* Light shadow for better visibility */
+}
+
+.button {
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Centers the content */
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    position: fixed; /* Makes the button fixed on the screen */
+    bottom: 1.5rem;  /* Distance from the bottom */
+    right: 1.5rem;   /* Distance from the right */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle depth */
+    z-index: 1000;   /* Ensures it appears above other elements */
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Smooth hover effects */
+}
+.button:hover {
+    background-color: #283593; /* Darker shade on hover */
+    transform: scale(1.05);    /* Slightly enlarges the button on hover */
+}
+
+
+.search-container {
+    margin: 1rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+.search-button {
+    width: 100%;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.results-title {
+    margin: 1rem;
+    color: #1a237e;
+    font-size: 1rem;
+}
+
+.no-results {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.no-results-text {
+    color: #4b52a5;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+.cat-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
