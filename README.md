@@ -1,6 +1,8 @@
 ![Alt text](https://blur.eternamedia.io/Untitled%20-%202024-12-25T143047.996.png)
 # BlurSend.com 🇦🇱
-Blur Send its an open source anoymos thougts expression made for people that what to tell their story or dedicate a message to someone they cant talk to, and meabye see what other people are saying for them. The website its developed in PHP and other website framing language such as HTML, CSS and JS. Im adding the feed refeshing feture becouse for now there is only an infinte feed scroll, and you cant reach the website footer if there is amount of posts.
+BlurSend is an open-source platform designed for anonymous expression and storytelling. It allows users to share their thoughts or dedicate messages to individuals they can't directly communicate with, fostering a space for emotional release and connection. Developed using PHP, HTML, CSS, and JavaScript, the website features an infinite scrolling feed for exploring posts. A new feed-refreshing feature is being added to improve usability and enable access to the footer, addressing the limitation caused by the continuous stream of posts.
+
+
 
 # Attention: this is for mobile acces only!
 I have made this only for moblie users and its an platform made only in 🇦🇱 albanian language, you can still use it since im working on adding English too.
