@@ -2,7 +2,7 @@
 // Database connection settings
 $servername = "localhost";  // Or the database host provided by Hostinger
 $username = "u736502773_didiy";  // DB username
-$password = "#a8Lcf==Nh";        // DB password
+$password = "PASSWORD";        // DB password
 $database = "u736502773_blur";   // DB name
 
 // Create connection
